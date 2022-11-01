@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Login = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <div>
+      <div>
+        <h1>Food House</h1>
 
-export default Login
+        <h2> Login to See All of the Delicious Recipes</h2>
+      </div>
+    </div>
+  );
+};
+
+export default Login;
