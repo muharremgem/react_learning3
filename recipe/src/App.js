@@ -1,13 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Login from "./components/Login";
 
 function App() {
   return (
-    <div className="App bg-black">
-      <div className="text-orange-500 bg-black text-bold flex justify-center">
-        {" "}
-        muharrem{" "}
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
