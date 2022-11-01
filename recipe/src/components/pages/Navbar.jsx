@@ -7,9 +7,11 @@ const Navbar = () => {
         <h1>Food House </h1>
       </div>
 
-      <div>
-        <NavLink to="/" className="texy-green-500" />Home</NavLink>
-      </div>
+
+        <NavLink to="/" className="text-green-500">
+          Home{" "}
+        </NavLink>
+
     </>
   );
 };
