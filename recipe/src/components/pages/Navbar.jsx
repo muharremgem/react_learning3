@@ -7,10 +7,12 @@ const Navbar = () => {
         <h1>Food House </h1>
 
         <div className="flex flex-col justify-end items-end">
-          <NavLink to="/home" className="text-green-500" 
-          style={({ isActive}) => ({
-            color
-          })}
+          <NavLink
+            to="/home"
+            className="text-green-500"
+            style={({ isActive }) => ({
+              color: isActive ? "white" : "",
+            })}
           >
             Home
           </NavLink>
