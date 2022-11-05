@@ -27,7 +27,6 @@ const Login = () => {
               placeholder="password"
               required
             />
-
             <button
               type="submit"
               className="bg-orange-500 p-3 m-3 px-7 rounded-2xl hover:scale-90 hover:bg-green-500"
